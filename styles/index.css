@@ -1,0 +1,32 @@
+/* .images {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.photo {
+    max-width: 31.333%;
+    padding: 4%;
+    height: 240px;
+}
+.photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+    box-shadow: 10px 10px 10px grey;
+
+} */
+
+.images{
+    display: flex;
+    /* flex-wrap: wrap; sets whether flex items are forced onto one line or can wrap onto multiple lines. */
+
+}
+
+.photo img{
+    height: 300px;
+    width: 300px;
+}
