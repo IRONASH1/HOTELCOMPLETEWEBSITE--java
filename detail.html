@@ -1,68 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/detail.css">
-    <link rel="stylesheet" href="styles/common.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/detail.css" />
+    <link rel="stylesheet" href="styles/common.css" />
     <title>detail</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="Header">
-        <span class="logo">
-            <img src="assests/images/logo.png" alt="logo">
-        </span>
-        <a href="login.html" target="_blank">Login</a>
+      <span class="logo">
+        <a href="index.html">
+          <img src="assests/images/logo.png" alt="logo" />
+        </a>
+      </span>
+      <a href="login.html">Login</a>
     </div>
     <div class="Content">
-        <div class="selectHotel">
-            <a href="detail.html">
-                <img
-                src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-                alt="Radisson Blu Hotel"
-                />
-        </div>
-            <a href="payment.html">Book Now</a>
-            <h2>Radisson Blu Hotel</h2>
-            <dl>
-                <dt>RATING</dt>
-                <dt>5 Star</dt>
-                <dt>AMENITIES</dt>
-                <dd>
-                    <ul>
-                        <li>Room service</li>
-                        <li>Restaurant</li>
-                        <li>Business center</li>
-                        <li>Fitness center</li>
-                        <li>Pool</li>
-                    </ul>
-                </dd>
-                <dt><h5>DESCRIPTION</h5></dt>
-                <dt>Radisson Blu has roots dating back to the opening of the SAS Royal Hotel in Denmark in 1960. Designed by Arne Jacobsen for SAS Group, it was the world's first designer hotel.[1]: 378–379  The hotel was initially under the catering division of the group but merged with the hospitality division to become SAS Catering and Hotels.[1]: 379  In 1982, the hotels were spun off as a separate division, operating under the name SAS International Hotels.[2] and became known as SAS. </dt>
-              </dl>
+      <div class="selectHotel">
+        <a href="detail.html">
+          <img
+            src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+            alt="Radisson Blu Hotel"
+          />
+        </a>
+      </div>
+
+      <form action="payment.html">
+        <label for=""
+          >Adults: <input type="number" min="1" name="Adults" required /></label
+        ><br />
+        <label for="">Name: <input type="text" name="Name" required /></label
+        ><br />
+        <label for=""
+          >From Date: <input type="date" name="fromDate" required /></label
+        ><br />
+        <label for=""
+          >To Date: <input type="date" name="toDate" required /></label
+        ><br />
+        <label for="">Total: <input type="text" name="price" disabled /></label
+        ><br />
+        <button type="Book Now">Book Now</button>
+      </form>
+
+      <h2>Radisson Blu Hotel</h2>
+      <dl>
+        <dt>RATING</dt>
+        <dt>5 Star</dt>
+        <dt>AMENITIES</dt>
+        <dd>
+          <ul>
+            <li>Room service</li>
+            <li>Restaurant</li>
+            <li>Business center</li>
+            <li>Fitness center</li>
+            <li>Pool</li>
+          </ul>
+        </dd>
+        <dt><h5>DESCRIPTION</h5></dt>
+        <dt>
+          Radisson Blu has roots dating back to the opening of the SAS Royal
+          Hotel in Denmark in 1960. Designed by Arne Jacobsen for SAS Group, it
+          was the world's first designer hotel.[1]: 378–379  The hotel was
+          initially under the catering division of the group but merged with the
+          hospitality division to become SAS Catering and Hotels.[1]: 379  In
+          1982, the hotels were spun off as a separate division, operating under
+          the name SAS International Hotels.[2] and became known as SAS.
+        </dt>
+      </dl>
     </div>
 
     <div class="Footer">
-        <a href="contact.html" target="_blank">Contact Us</a>
+      <a href="contact.html">Contact Us</a>
 
-        <!-- The social media logo images code from here  -->
+      <!-- The social media logo images code from here  -->
 
-        <div class="socailImages">
-          <a href="https://www.facebook.com/" target="_blank">
-            <img alt="Facebook" src="assests/images/facebook.png" />
-          </a>
+      <div class="socailImages">
+        <a href="https://www.facebook.com/" target="_blank">
+          <img alt="Facebook" src="assests/images/facebook.png" />
+        </a>
 
-          <a href="https://www.instagram.com/" target="_blank">
-            <img alt="Instagram" src="assests/images/instagram.png" />
-          </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img alt="Instagram" src="assests/images/instagram.png" />
+        </a>
 
-          <a href="https://twitter.com/" target="_blank">
-            <img alt="Twitter" src="assests/images/twitter.png" />
-          </a>
-        </div>
-
-        <p>&#169; 2023 ROOM SEARCH PVT.LTD</p>
+        <a href="https://twitter.com/" target="_blank">
+          <img alt="Twitter" src="assests/images/twitter.png" />
+        </a>
       </div>
-</body>
+
+      <p>&#169; 2023 ROOM SEARCH PVT.LTD</p>
+    </div>
+  </body>
 </html>
