@@ -10,21 +10,25 @@
   </head>
   <body>
     <header>
-      <span class="logo">
-        <a href="index.html">
-          <img src="assests/images/logo.png" alt="logo" />
-        </a>
-      </span>
-      <a href="login.html">Login</a>
+      <ul class="navList">
+        <li class="logo">
+          <a href="index.html">
+            <img src="assests/images/logo.png" alt="logo" />
+          </a>
+        </li>
+        <li class="login">
+          <a href="login.html">  Login  </a>
+        </li>
+      </ul>
     </header>
 
     <div class="Content">
-      <ul style="list-style-type: disc">
-        <a href="#listView">
+      <ul class="listMapView">
+        <a href="#listView" class="listView">
           <li>List View</li>
         </a>
 
-        <a href="#mapView">
+        <a href="#mapView" class="mapView">
           <li>Map View</li>
         </a>
       </ul>
@@ -32,7 +36,7 @@
       <!-- The hotel code start from here -->
       <div id="listView">
         <div class="photo">
-          <a href="detail.html">
+          <a href="detail.html" class="detail">
             <img
               src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
               alt="Radisson Blu Hotel"
@@ -44,6 +48,7 @@
         </div>
 
         <div class="photo">
+          <div class="detail">
           <img
             src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg"
             alt="The Lalit New Delhi"
@@ -52,8 +57,10 @@
           <p>4.5 star</p>
           <p>New Delhi</p>
         </div>
+        </div>
 
         <div class="photo">
+          <div class="detail">
           <img
             src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg"
             alt="Taj Palace"
@@ -61,6 +68,7 @@
           <h2>Taj Palace</h2>
           <p>4.0 star</p>
           <p>New Delhi</p>
+        </div>
         </div>
       </div>
 
@@ -74,25 +82,31 @@
     </div>
 
     <footer>
-      <a href="contact.html">Contact Us</a>
-
-      <!-- The social media logo images code from here  -->
-
-      <div class="socailImages">
-        <a href="https://www.facebook.com/" target="_blank">
-          <img alt="Facebook" src="assests/images/facebook.png" />
-        </a>
-
-        <a href="https://www.instagram.com/" target="_blank">
-          <img alt="Instagram" src="assests/images/instagram.png" />
-        </a>
-
-        <a href="https://twitter.com/" target="_blank">
-          <img alt="Twitter" src="assests/images/twitter.png" />
-        </a>
-      </div>
-
-      <p>&#169; 2023 ROOM SEARCH PVT.LTD</p>
+        
+      <ul class="navList">
+        <li class="contact">
+          <a href="contact.html">Contact Us</a>
+        </li>
+        <li class="copyRight">
+          <p>&#169; 2023 ROOM SEARCH PVT.LTD</p>
+        </li>
+        <!-- The social media logo images code from here  -->
+        
+        <li class="socailImages">
+          <a href="https://www.facebook.com/" target="_blank">
+            <img alt="Facebook" src="assests/images/facebook.png" />
+          </a>
+          
+          <a href="https://www.instagram.com/" target="_blank">
+            <img alt="Instagram" src="assests/images/instagram.png" />
+          </a>
+          
+          <a href="https://twitter.com/" target="_blank">
+            <img alt="Twitter" src="assests/images/twitter.png" />
+          </a>
+        </li>
+      </ul>
+      
     </footer>
   </body>
 </html>

@@ -1,16 +1,29 @@
 *{
     padding: 1;
     margin: 0;
-    font-family: sans-serif;
+    font-family: Ubuntu, sans-serif;
     line-height: 1.5;
 }
 
 header{
     background-color: rosybrown;
+    position: fixed;        
+  top: 0;
+  width: 100%;
+  
 }
 
 footer{
     background-color: rosybrown;
+    position: fixed;        
+    bottom: 0;
+    width: 100%;
+}
+
+.viewMore{
+    padding-bottom: 5%;
+    color: black;
+    text-decoration: none;
 }
 
 body{
@@ -27,3 +40,55 @@ body{
     height: 20px;
     width: 22px;
 }
+
+/* top navbar */ 
+
+.navList{
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+  .login a{
+    text-decoration: none;
+    color: black;
+  }
+  .logo{
+    width: 95%;
+}
+
+.login{
+    margin: auto;
+  }
+  .Content{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+  
+
+  /* bottom navbar */
+
+
+  .contact a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .contact{
+    width: 45%;
+    margin: auto;
+    /* margin: 0%; */
+}
+
+.socailImages{
+    margin: auto;
+    /* width: 10%; */
+}
+
+.copyRight{
+    /* margin: auto; */
+    width: 45%;
+    padding-top: 3%;
+    font-size: 10px;
+  }

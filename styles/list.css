@@ -8,3 +8,43 @@
     width: 40%;
     margin: 2%;
 }
+
+.listMapView a{
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  font-weight: bold;
+}
+
+.listMapView{
+  display: flex;
+  padding: 0%;
+}
+
+.listView{
+  margin-left: auto;
+}
+
+.mapView{
+  margin-right: auto;
+  padding-left: 10%;
+}
+
+#listView{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.detail{
+  text-decoration: none;
+  color: black;
+}
+
+.detail p{
+  line-height: 40px;
+}
+
+
+
+
+

@@ -21,4 +21,11 @@
     border-radius: 5px;
     border: 1px solid black;
     padding: 1% 2%;
+    margin-bottom: 2%;
+}
+
+#payNow{
+    padding-bottom: 10%;
+    text-decoration: none;
+    color: black;
 }
