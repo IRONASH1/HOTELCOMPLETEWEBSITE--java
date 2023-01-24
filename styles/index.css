@@ -1,10 +1,25 @@
 .images{
     display: flex;
     /* flex-wrap: wrap; sets whether flex items are forced onto one line or can wrap onto multiple lines. */
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
 
+}
+
+.photo{
+    padding: 4%;
 }
 
 .photo img{
     height: 150px;
     width: 150px;
+    border-radius: 25%;
+}
+
+#backgroundImage{
+    background: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+    height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

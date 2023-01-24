@@ -2,7 +2,19 @@
     padding: 1;
     margin: 0;
     font-family: sans-serif;
-    line-height: 2;
+    line-height: 1.5;
+}
+
+header{
+    background-color: rosybrown;
+}
+
+footer{
+    background-color: rosybrown;
+}
+
+body{
+    background-color: #e0e0e0;
 }
 
 .logo img{
