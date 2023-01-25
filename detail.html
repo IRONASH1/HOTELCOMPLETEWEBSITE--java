@@ -23,36 +23,82 @@
     </header>
     <div class="Content">
       <div class="selectHotel">
-        <a href="detail.html">
-          <img
-            src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-            alt="Radisson Blu Hotel"
-          />
-        </a>
-      </div>
-
-      <form action="payment.html" class="form">
-        <label for=""
-          >Adults: <input type="number" min="1" name="Adults" required /></label
-        ><br />
-        <label for="">Name: <input type="text" name="Name" required /></label
-        ><br />
-        <label for=""
-          >From Date: <input type="date" name="fromDate" required /></label
-        ><br />
-        <label for=""
-          >To Date: <input type="date" name="toDate" required /></label
-        ><br />
-        <label for="">Total: <input type="text" name="price" disabled /></label
-        ><br />
-        <button type="Book Now">Book Now</button>
-      </form>
+        <table border="1px" class="table1">
+          <tr>
+              <td>
+                  <div class="images">
+                      <div id="photo">
+                          <a href="#Radisson Blu Hotel">
+                            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel">
+                          </a>
+                      </div>
+                  </div>
+              </td>
+              <td>
+                  
+                <table>
+                  <form action="payment.html" class="form">
+                    <tr>
+                      <td>
+                        <label for="name">
+                          Adults:
+                        </label>
+                      </td>
+                      <td></td>
+                      <td><input type="number" min="1" name="Adults" required />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><label for="Name">
+                          Name:
+                        </label>
+                      </td>    <td></td>
+                      <td><input type="text" name="Name" required />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><label for="From Date:">
+                        From Date:
+                        </label>
+                      </td>    <td></td>
+                      <td><input type="date" name="fromDate" required />
+                      </td>
+                    </tr>
+              
+                    <tr>
+                      <td><label for="To Date:">
+                        To Date:
+                        </label>
+                      </td>    <td></td>
+                      <td><input type="date" name="toDate" required />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><label for="Total:">
+                        Total:
+                        </label>
+                      </td>    <td></td>
+                      <td><input type="text" name="price" disabled />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td> <button type="BookNow" class="btn">Book Now</button>
+                      </td>
+                    </tr>
+                  </form>
+                </table>
+               </div>
+              </td>
+          </tr>
+      </table>
 <div id="discription">
       <h2>Radisson Blu Hotel</h2>
       <dl>
         <dt>RATING</dt>
         <dt>5 Star</dt>
-        <dt>AMENITIES</dt>
+        <dt><h4>AMENITIES</h4></dt>
         <dd>
           <ul>
             <li>Room service</li>

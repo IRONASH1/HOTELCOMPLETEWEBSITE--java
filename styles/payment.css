@@ -1,31 +1,44 @@
 .selectHotel img{
-    height: 500px;
-    width: 500px;
+    max-height: 300px;
+    max-width: 270px;
 }
 
 .selectHotel{
     margin: auto;
     width: 50%;
-    height: 20%;
+    /* height: 20%; */
+    
     background-color: rgb(132,136,139);
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    
+}
 
+.text{
+    padding: 5%;
+    padding-top: 10%;
 }
 
 .paymentDetail{
+    padding: 2%;
     margin: 2%;
-}
-
-.tarrifDetail{
+    width: 90%;
+    display: flex;
     border-radius: 5px;
     border: 1px solid black;
-    padding: 1% 2%;
-    margin-bottom: 2%;
+    background-color: rosybrown;
+ 
 }
 
+
+
 #payNow{
-    padding-bottom: 10%;
+    margin: auto;
     text-decoration: none;
     color: black;
+}
+
+.form1{
+    margin: auto;
 }

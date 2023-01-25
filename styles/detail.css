@@ -1,6 +1,6 @@
 .selectHotel img{
     height: 500px;
-    width: 500px;
+    /* width: 500px; */
     margin-top: 2%;
     margin-left: 4%;
     margin-right: 4%;
@@ -19,3 +19,62 @@
     margin-bottom: 2%;
 
 }
+
+
+#photo img {
+    max-height: 350px;
+    margin-left: 20%;
+    margin-right: 20%;
+ 
+ }
+ 
+ .table1{
+     margin-top: 7%;
+     margin-left: 5%;
+     /* margin-right: 5%; */
+     border-collapse: collapse;
+     height: 400px;
+     width: 90%;
+    
+ }
+ 
+ 
+ .form{
+   padding: 10%;
+   text-align: left;
+ 
+ }
+ 
+ input[type=text ], select {
+   /* width: 100%; */
+   margin: 20px 0;
+ }
+ 
+ input[type=number], select {
+   /* width: 60%; */
+   margin: 20px 0;
+ }
+ input[type=date], select {
+   /* width: 60%; */
+   margin: 20px 0px;
+ }
+ 
+ 
+ form {
+   /* overflow: hidden; */
+ }
+ 
+ input {
+   float: right;
+   width: 100%;
+   clear: both;
+ }
+ 
+ table{
+   padding-left: 20%;
+ }
+ 
+ .btn{
+   padding: 4%;
+ }
+ 

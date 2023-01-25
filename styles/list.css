@@ -4,7 +4,7 @@
 }
 
 .photo{
-    background-color: rgb(132,136,139);
+    background-color: lightgray;
     width: 40%;
     margin: 2%;
 }
@@ -37,6 +37,7 @@
 
 .detail{
   text-decoration: none;
+  display: flex;
   color: black;
 }
 
@@ -44,6 +45,9 @@
   line-height: 40px;
 }
 
+.detail span{
+  margin: 2%;
+}
 
 
 
