@@ -98,4 +98,17 @@ body{
   }
 
 
-  
+  /* modals for login */
+
+.footer-login{
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.modal-form{
+  text-align: center;
+}
+
+#modal-dialog{
+  bottom: 30vh;
+}

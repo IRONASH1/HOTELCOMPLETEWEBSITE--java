@@ -49,6 +49,8 @@
   margin: 2%;
 }
 
-
+.photo:hover{
+  background-color: rosybrown;
+}
 
 

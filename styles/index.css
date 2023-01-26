@@ -84,3 +84,16 @@
         margin-top: 45%;
         margin-left: 40%;
     }
+
+
+    /* modal for login */
+
+.footer-login{
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  
+  .modal-form{
+    text-align: center;
+  }
+
