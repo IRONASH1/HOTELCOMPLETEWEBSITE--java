@@ -97,3 +97,5 @@
     text-align: center;
   }
 
+  /* Set display to none for image*/
+  #more {display: none;}
